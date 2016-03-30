@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="plunker">
+<head>
+  <meta charset="UTF-8">
+  <title>App</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+  <!-- endinject -->
+  <!-- vendor.min:css -->
+  <!-- endinject -->
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="styles/common.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <!-- endinject -->
+  <!-- app.min:css -->
+  <!-- endinject -->
+</head>
+<body>
+<header ng-controller="HeaderController as headerVm" ng-include="'views/header.tmpl.html'"></header>
+<section>
+  <div class="container-fluid" ng-view></div>
+</section>
+<footer ng-controller="FooterController as footerVm" ng-include="'views/footer.tmpl.html'"></footer>
+
+<!-- bower:js -->
+<script src="/bower_components/angular/angular.js"></script>
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/angular-route/angular-route.js"></script>
+<script src="/bower_components/angular-messages/angular-messages.js"></script>
+<script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<!-- endinject -->
+<!-- vendor.min:js -->
+<!-- endinject -->
+
+<!-- inject:js -->
+<script src="app/app.module.js"></script>
+<script src="app/controllers/header.controller.js"></script>
+<script src="app/controllers/footer.controller.js"></script>
+<script src="app/app.constant.js"></script>
+<!-- endinject -->
+<!-- app.min:js -->
+<!-- endinject -->
+</body>
+</html>

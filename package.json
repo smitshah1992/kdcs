@@ -1,0 +1,28 @@
+{
+  "name": "ui-seed",
+  "version": "1.0.0",
+  "description": "ui seed project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smitshah1992/kdcs"
+  },
+  "author": "sas1234@nyu.edu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smitshah1992/kdcs/issues"
+  },
+  "homepage": "www.kdcs.org",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-clean-css": "^2.0.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-uglify": "^1.5.3",
+    "main-bower-files": "^2.11.1",
+    "merge-stream": "^1.0.0"
+  }
+}
